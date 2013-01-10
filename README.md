@@ -10,31 +10,35 @@ in your browser.
 Introductory Notes
 ------------------
 
-(1) The program needs to know your location in order to predict what the
+The program needs to know your location in order to predict what the
 sky will look like. Initially, it just guesses the biggest city in your
 time zone. If this is incorrect, you can set your location either by
 typing in your latitude and longitude or by choosing a city from the
 list (which only includes those with populations greater than 3
 million).  
- (2) Use 24-hour time for setting the time, e.g. 13:00 means 1 pm.  
- (3) In the U.S., daylight savings time lasts from 2 am on the first
+
+Use 24-hour time for setting the time, e.g. 13:00 means 1 pm.  
+
+In the U.S., daylight savings time lasts from 2 am on the first
 sunday of April until 2 am on the last sunday of October. The program
 handles this by default. If you are not in the U.S., you may need to set
 daylight savings time manually.  
- (4) The compass directions may look wrong, but that is because the
+
+The compass directions may look wrong, but that is because the
 screen represents the way the sky looks when you look straight up. The
 compass directions are therefore a mirror image of the compass
 directions on a map, which represents a view of the land looking down
 from above.  
- (5) The spherical sky has to be projected onto the flat screen. This
+
+The spherical sky has to be projected onto the flat screen. This
 projection produces distortion, just as a map of the earth inevitably
 has some distortion. The greatest distortion occurs near the horizon.  
- (6) The disks of the sun, moon, and planets are not drawn to scale.
+
+The disks of the sun, moon, and planets are not drawn to scale.
 Their brightnesses are given as magnitudes to the right of their names.
-A more negative magnitude means a brighter planet. The magnitudes given
-for Saturn do not include the brightness of the rings, so Saturn will
-usually be brighter than indicated.  
- (7) This program is only designed to have a limited degree of accuracy,
+A more negative magnitude means a brighter planet.
+
+This program is only designed to have a limited degree of accuracy,
 sufficient for most naked-eye astronomy applications. More detailed
 information is given below.  
 
@@ -129,13 +133,14 @@ you must use integers.
 Ports to Mobile Devices
 -----------------------
 
-Kostas Giannakakis has created a C++-language [port of
-PlanetFinder](http://www.newlc.com/article.php3?id_article=799) for the
+Kostas Giannakakis has created a C++-language [port of PlanetFinder](http://users.forthnet.gr/ath/kgiannak/) for the
 Symbian operating system that runs on cell phones.
-
-Cass Everitt has in turn ported Kostas's app to the iPhone. He calls it
-star3map, and it's [available via the iTunes
-store.](http://itunes.apple.com/us/app/star3map/id353613186?mt=8)
+Cass Everitt has in turn ported the code to the iPhone and added featues. He calls it
+[star3map](http://www.xyzw.us/star3map/sourcecode.html). Older versions of
+star3map appear to have violated Planet Finder's GPL license by linking
+it with BSD-licensed code. Newer versions seem to have switched to using
+Everitt's own code for the celestial mechanics. The C++ version of Planet Finder's celestial mechanics code is
+[here](https://github.com/bcrowell/planetfinder/tree/master/c_port).
 
 Technical Notes on Precision
 ----------------------------
@@ -145,8 +150,7 @@ laws, so it is no good for extremely high- precision work or for
 projections many centuries into the past or future. The only
 nonkeplerian behavior incorporated into the program is the precession of
 the moon's orbit and the first few correction terms for the moon's
-motion given by [Paul
-Schlyter](http://hotel04.ausys.se/pausch/english.htm%0A). The parallax
+motion given by [Paul Schlyter](http://hotel04.ausys.se/pausch/english.htm%0A). The parallax
 due to the rotation of the earth is taken into account, but the program
 does not calculate the effect of the earth's oblateness or of the time
 taken for light to travel from the planets to us. The sun's motion
@@ -154,12 +158,17 @@ relative to the solar system's center of mass is taken into account.
 Refraction in the earth's atmosphere is not taken into account, which is
 why the times of sunrise and sunset will not agree exactly with what is
 listed in the newspaper.   
+The magnitudes given
+for Saturn do not include the brightness of the rings, so Saturn will
+usually be brighter than indicated.  
+
 For high-precision calculations, you may want to check out [Solar System
 Live](http://www.fourmilab.ch/cgi-bin/uncgi/Solar?date=0&utc=1995%2F03%2F05+12%3A00%3A00&jd=2449782.00000&img=-k0&sys=-Sf&imgsize=500&eyes=0&orb=-b1&lat=33%B050%27&ns=North&lon=118&ew=West&hlat=90%B0&hns=North&hlon=0%B0&elements=),
 a web page that displays a map of the locations of the planets in the
 solar system (not a map of the sky), or [Your
 Sky](http://www.fourmilab.ch/yoursky/), which is a planetarium applet
 like this one but fancier and not quite as easy to use.
+
 
 Acknowledgments
 ---------------
