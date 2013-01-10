@@ -75,16 +75,21 @@ correctly for the computer. Of course you should change the references
 to Italian so they refer to your own language. Thanks!!
 
        
-    Planet Finder [can be translated as something like "Planets Now"
+          Planet Finder [can be translated as something like "Planets Now"
             or "Planets Today" -- I leave it up to your judgment to pick whatever sounds
             best in your language]
-    "Light and Matter" web page [You can decide whether quotes are appropriate in your language]
-    an applet that shows the current locations of the stars and planets in the night sky
-    Italian version of Planet Finder
-    Sorry, but I am unable to respond to e-mail in Italian.
-    Light and Matter home page (in English)
-    Thanks to (your name) for the Italian translation.
-        
+
+          "Light and Matter" web page [You can decide whether quotes are appropriate in your language]
+
+          an applet that shows the current locations of the stars and planets in the night sky
+
+          Italian version of Planet Finder
+
+          Sorry, but I am unable to respond to e-mail in Italian.
+
+          Light and Matter home page (in English)
+
+          Thanks to (your name) for the Italian translation.
 
           daylightSavings = "Daylight savings";
           auto = "Auto";
@@ -99,9 +104,9 @@ to Italian so they refer to your own language. Thanks!!
           update = "Update";
           nakedEyePlanetsOnly = "Naked-eye planets only";
           timeZone = "Time zone";
-         monthNames[0] = "Jan"; monthNames[3] = "Apr";  monthNames[6] = "Jul";  monthNames[9] = "Oct";  
-         monthNames[1] = "Feb"; monthNames[4] = "May";  monthNames[7] = "Aug";  monthNames[10] = "Nov"; 
-         monthNames[2] = "Mar"; monthNames[5] = "Jun";  monthNames[8] = "Sep";  monthNames[11] = "Dec"; 
+          monthNames[0] = "Jan"; monthNames[3] = "Apr";  monthNames[6] = "Jul";  monthNames[9] = "Oct";  
+          monthNames[1] = "Feb"; monthNames[4] = "May";  monthNames[7] = "Aug";  monthNames[10] = "Nov"; 
+          monthNames[2] = "Mar"; monthNames[5] = "Jun";  monthNames[8] = "Sep";  monthNames[11] = "Dec"; 
           planetNames[0] = "Mercury";   planetNames[3] = "Mars";    planetNames[6] = "Uranus";  
           planetNames[1] = "Venus"; planetNames[4] = "Jupiter"; planetNames[7] = "Neptune"; 
           planetNames[2] = "Earth"; planetNames[5] = "Saturn";  planetNames[8] = "Pluto";
