@@ -135,11 +135,11 @@ Ports to Mobile Devices
 
 Kostas Giannakakis has created a C++-language [port of PlanetFinder](http://users.forthnet.gr/ath/kgiannak/) for the
 Symbian operating system that runs on cell phones.
-Cass Everitt has in turn ported the code to the iPhone and added featues. He calls it
-[star3map](http://www.xyzw.us/star3map/sourcecode.html). Older versions of
-star3map appear to have violated Planet Finder's GPL license by linking
-it with BSD-licensed code. Newer versions seem to have switched to using
-Everitt's own code for the celestial mechanics. The C++ version of Planet Finder's celestial mechanics code is
+Cass Everitt in turn ported the code to the iPhone and added featues, making an app called
+[star3map](http://www.xyzw.us/star3map/sourcecode.html). 
+He later eliminated the GPL-licensed port of my celestial mechanics code from the project
+and made a new, closed-source versions of the app, called Space Junk.
+The GPL-licensed C++ version of Planet Finder's celestial mechanics code from star3map is
 [here](https://github.com/bcrowell/planetfinder/tree/master/c_port).
 
 Technical Notes on Precision
