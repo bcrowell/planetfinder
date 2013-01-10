@@ -1,6 +1,12 @@
 Planet Finder
 =============
 
+An applet that shows the locations of the planets, stars, moon, and sun in the
+sky from any location and for any date and time.
+
+Click [here](http://www.lightandmatter.com/planetfinder/en/) to run Planet Finder
+in your browser.
+
 Introductory Notes
 ------------------
 
@@ -115,11 +121,8 @@ get a bunch of Java errors.
  (2) If you program the default latitude and longitude into your html,
 you must use integers.  
 
-Open Source Stuff
------------------
-
-The source code is subject to the GPL open source license. Source code:
-[here](planetfinder.tar.gz).
+Ports to Mobile Devices
+-----------------------
 
 Kostas Giannakakis has created a C++-language [port of
 PlanetFinder](http://www.newlc.com/article.php3?id_article=799) for the
