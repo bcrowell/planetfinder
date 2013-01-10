@@ -127,20 +127,20 @@ Known Bugs
 
 (1) The applet does not quit gracefully, so when you reload the page you
 get a bunch of Java errors.  
- (2) If you program the default latitude and longitude into your html,
+
+(2) If you program the default latitude and longitude into your html,
 you must use integers.  
 
 Ports to Mobile Devices
 -----------------------
 
-Kostas Giannakakis has created a C++-language [port of PlanetFinder](http://users.forthnet.gr/ath/kgiannak/) for the
-Symbian operating system that runs on cell phones.
-Cass Everitt in turn ported the code to the iPhone and added featues, making an app called
-[star3map](http://www.xyzw.us/star3map/sourcecode.html). 
-He later eliminated the GPL-licensed port of my celestial mechanics code from the project
-and made a new, closed-source versions of the app, called Space Junk.
-The GPL-licensed C++ version of Planet Finder's celestial mechanics code from star3map is
-[here](https://github.com/bcrowell/planetfinder/tree/master/c_port).
+The following ports to mobile devices exist:
+
+[symbian](http://users.forthnet.gr/ath/kgiannak/)
+
+[iPhone](http://www.xyzw.us/star3map/sourcecode.html)
+
+[iPhone](https://github.com/bcrowell/planetfinder_ios)
 
 Technical Notes on Precision
 ----------------------------
